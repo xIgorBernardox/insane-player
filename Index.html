@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Insane Player</title>
+    <!-- Styles -->
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="icon" type="image/x-icon" href="images/favico.png" />
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <div class="music-container">
+      <head>
+        <div class="playlist-title">
+          <h3>Playlist Insane Workout</h3>
+        </div>
+      </head>
+      <main>
+        <!-- Image And Song -->
+
+        <div class="album-cover">
+          <img class="cover" alt="Disc Cover" />
+          <audio class="audio"></audio>
+        </div>
+
+        <!-- Names -->
+
+        <div class="below-cover">
+          <div class="song-content">
+            <h1 class="song-name"></h1>
+            <p class="band-name"></p>
+          </div>
+          <button id="like-btn" class="button">
+            <i class="bi bi-emoji-heart-eyes"></i>
+          </button>
+        </div>
+
+        <!-- Progress Bar -->
+
+        <div class="progress-container">
+          <div class="progress-bar">
+            <div class="current-progress"></div>
+          </div>
+          <div class="time-box">
+            <div class="song-time">00:00</div>
+            <div class="total-time">00:00</div>
+          </div>
+        </div>
+
+        <!-- Icons -->
+
+        <div class="icons-btn-container">
+          <button id="shuffle" class="button">
+            <i class="bi bi-shuffle"></i>
+          </button>
+
+          <button id="arrow-left" class="button button-navigate">
+            <i class="bi bi-chevron-compact-left"></i>
+          </button>
+
+          <button id="play" class="button play button-biggest">
+            <i class="bi bi-play"></i>
+          </button>
+
+          <button id="arrow-right" class="button button-navigate">
+            <i class="bi bi-chevron-compact-right"></i>
+          </button>
+
+          <button id="arrow-repeat" class="button">
+            <i class="bi bi-arrow-repeat"></i>
+          </button>
+        </div>
+      </main>
+    </div>
+
+    <script src="script/main.js"></script>
+  </body>
+</html>
